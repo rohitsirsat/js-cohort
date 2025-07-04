@@ -35,3 +35,5 @@ let person2 = {
 
 // call() to give the context for "thisssss"
 person1.greet.call(person2);
+
+// Learn about JS INTERNALS ([call stack, global execution context --> (memory phase and code phase)], [call back queue, microtask  queue, event loop])
